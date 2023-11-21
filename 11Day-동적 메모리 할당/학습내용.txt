@@ -1,0 +1,10 @@
+#include <stdlib.h> //malloc 함수가 포함된 헤더 파일
+
+void* malloc(size_t size);
+void* calloc(size_t elt_count,size_t elt_size);// malloc과 기능상동일하다. elt_count*elt_size => size malloc의 size와 같은 크기임.
+void free(avoid* memblock);
+
+메모리의 재할당해주는 함수
+void* realloc(void* memblock, size_t size);
+
+함수의 사용법을 익힌다.

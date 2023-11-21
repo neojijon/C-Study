@@ -1,0 +1,16 @@
+//메모리상에 저장될 데이터들을 열거한 집합
+연속된 정수 값을 가지는 상수 집합을 정의하는 데 사용됩니다.
+열거형은 주로 가독성을 향상시키고 프로그램의 유지보수를 용이하게 하는 데 도움이 됩니다. 
+
+// 열거형 정의
+enum DayOfWeek {    // 열거형 정의
+    Sunday = 0,         // 초깃값 할당
+    Monday,
+    Tuesday,
+    Wednesday,
+    Thursday,
+    Friday,
+    Saturday   //마지막에는 쉼표를 넣치않음.
+};
+
+enum DayOfWeek week;    // 열거형 변수 선언

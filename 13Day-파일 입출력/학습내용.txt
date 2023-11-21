@@ -1,0 +1,4 @@
+파일에 쓰기, 읽기를 베운다.
+fopen,fclose,
+fgets,fputs,
+fscanf, fread, fwrite 사용법을 익힌다.
